@@ -1,0 +1,142 @@
+{"Research Staff": [
+	{
+		"name":"Min-Cheol Kim",
+		"title":"Research Scientist",
+		"degrees":"Ph.D. in Mechanical Engineering, SNU (2005)\nB.S. in Mathematics, Univ. of Seoul",
+		"research":"Cancer cell invasion dynamics in a 3D extracellular matrix network",
+		"alias":"mincheol",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/10171773_10203871130965603_146512243_n-214x300.jpg"
+	}
+]}
+{"Graduate Student-Workers": [
+	{
+		"name":"Jacob Guggenheim",
+		"title":"Ph.D. Candidate",
+		"degrees":"B.S. in Bioengineering, University of Illinois, Urbana-Champaign (2014)\nM.S. in Mechanical Engineering, MIT (2016)",
+		"research":"Unique Feedback Mechanisms from Wearable Robotics",
+		"alias":"jguggenh",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/10171773_10203871130965603_146512243_n-214x300.jpg"
+	},
+	{
+		"name":"Rachel Hoffman",
+		"title":"Ph.D. Candidate",
+		"degrees":"M.S. in Mechanical Engineering, MIT (2017)\nB.S. in Mechanical Engineering, University of Florida (2015)",
+		"research":"Design and control of wearable robots focusing on enhancing capabilities of disabled persons",
+		"alias":"rachelmh",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/100_20011-300x238.jpg",
+		"website":"http://darbeloff-lab.scripts.mit.edu/darbeloff-lab/?page_id=296"
+	},
+	{
+		"name":"Phillip Daniel",
+		"title":"Ph.D. Candidate",
+		"degrees":"S.M. in Mechanical Engineering, MIT (2015)\nS.B. in Engineering, MIT (2013)",
+		"research":"Extra Robotic Arms for Enhancing Technicians in Manufacturing Settings",
+		"alias":"docphil",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/Phillip-Daniel-300x300.jpg"
+	},
+	{
+		"name":"Filippos E. Sotiropoulos",
+		"title":"Ph.D. Candidate",
+		"degrees":"S.M in Mechanical Engineering, MIT (2018)\nMEng in Mechanical Engineering, University of Bristol (2016)",
+		"research":"Design and control of autonomous excavation machines for mining applications",
+		"alias":"fes",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/06/Sotiropoulos-Filippos-SM-04-1-e1529451280494-300x261.jpg"
+	},
+	{
+		"name":"Nicholas S. Selby",
+		"title":"Ph.D. Candidate",
+		"degrees":"M.S. in Mechanical Engineering, MIT (2018)\nB.S. in Mechanical Engineering, Georgia Tech (2016)",
+		"research":"TeachBot Education System for Workforce Development",
+		"alias":"nselby",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/headshot-300x300.jpg",
+		"website":"http://www.mit.edu/~nselby/"
+	},
+	{
+		"name":"Jerry Ng",
+		"title":"Ph.D. Student",
+		"degrees":"M.S. in Mechanical Engineering, MIT (2019)\nB.S. in Mechanical Engineering from UC San Diego (2017)",
+		"research":"Dual-Faceted Linearization",
+		"alias":"jerryng",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/jerry-300x300.jpg"
+	},
+	{
+		"name":"Ryan Sandzimier",
+		"title":"M.S. Student",
+		"degrees":"B.S. in Mechanical Engineering, University of California, Los Angeles (2015)",
+		"research":"Autonomous Excavators",
+		"alias":"rsandz",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/Ryan.jpeg"
+	},
+	{
+		"name":"John Bell",
+		"title":"M.S. Student",
+		"degrees":"S.B. in Mechanical Engineering, MIT (2018)",
+		"research":"Actuation",
+		"alias":"jhbell",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/03/Headshot_edited_small_square.jpg"
+	}
+]}
+{"Visiting Engineers": [
+	{
+		"name":"Seiichi Teshigawara",
+		"degrees":"Ph.D. in Mechanical Engineering, UEC (2012)",
+		"research":"coming soon",
+		"alias":"seiichi"
+	}
+]}
+{"Undergraduate Researchers": [
+	{
+		"name":"Claire Traweek",
+		"title":"Mechanical Engineering B.S. Candidate",
+		"mentor":"Nicholas S. Selby",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/ctraweek_heashot-300x300.png"
+	},
+	{
+		"name":"Rachel Kwak",
+		"title":"Architecture B.S. Candidate",
+		"mentor":"Nicholas S. Selby",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/05/rachelkwak.jpg"
+	},
+	{
+		"name":"Albert Go",
+		"title":"Mechanical Engineering B.S. Candidate",
+		"mentor":"Nicholas S. Selby",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/05/albertgo.jpg"
+	},
+	{
+		"name":"Faith Jones",
+		"title":"Mechanical Engineering B.S. Candidate",
+		"mentor":"Nicholas S. Selby"
+	},
+]}
+{"Lab Alumni": [
+	{
+		"name":"Yuta Kamoshita",
+		"degrees": "B.S. in Mechanical Engineering, Tokyo Institute of Technology (2006)\nM.S. in Mechanical Engineering, Tokyo Institute of Technology (2008)",
+		"research":"Design and control of autonomous mining equipment",
+		"alias":"yutak",
+		"image":"http://darbeloff-lab.scripts.mit.edu/darbeloff-lab/wp-content/uploads/2015/01/IMG_20170214_130442-300x300.jpg"
+	},
+	{
+		"name":"Daniel Kurek",
+		"degrees": "B.S. in Mechanical Engineering, UCLA, (2015)\nM.S. in Mechanical Engineering, MIT (2016)",
+		"research":"Design and control of wearable robots focusing on enhancing and supporting people in manufacturing settings",
+		"alias":"dkurek",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/IMG_1573-e1559323241728.jpg"
+	},
+	{
+		"name":"Nicholas Hensel",
+		"degrees": "B.S. in Mechanical Engineering, B.S. in Electrical Engineering, Rochester Institute of Technology (2014)\nM.S. in Mechanical Engineering, MIT (2016)",
+		"research":"Design and control of wearable robots for enhanced upper-body manipulation and control capabilities",
+		"alias":"nchensel",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/2015-04-22-19.29.36-e1559321156665.jpg"
+	},
+	{
+		"name":"Faye Wu",
+		"degrees": "B.S. in Mechanical Engineering, MIT (2009)\nM.S. in Mechanical Engineering, MIT (2012)\nPhD in Mechanical Engineering, MIT (2017)",
+		"research":"Design and control of wearable robots for enhancing human capabilities",
+		"alias":"nchensel",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/2015-04-22-19.29.36-e1559321156665.jpg"
+	},
+
+]}
