@@ -96,7 +96,7 @@ function generateRow(ind, employee, formatTight=false) {
 		if (formatTight) {
 			html += '<em>';
 		}
-		html += employee.degrees.replace('\n','<br>');
+		html += employee.degrees.replace(/\n/g,'<br>');
 		if (formatTight) {
 			html += '</em>';
 		} else {
