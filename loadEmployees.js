@@ -33,10 +33,6 @@ for (let e=0; e<alumni.length; e++) {
 html += endTable();
 document.getElementById('lab-alumni').innerHTML = html;
 
-
-
-
-
 function generateHeader(title) {
 	return '<h1 style="text-align: center;">' + title + '</h1><hr />'
 }
@@ -80,11 +76,19 @@ function generateRow(ind, employee, formatTight=false) {
 	html += startContentCell();
 	html += '\t\t\t\t\t<h2>';
 	if (employee.hasOwnProperty('title')) {
-		html += '<strong>' + employee.name + '</strong> <em>' + employee.title + '</em>'
-	} else {
-		html += employee.name;
+		html += '<strong>';
 	}
-	html += '</h2>\n';
+	if (employee.hasOwnProperty('website')) {
+		html += '<a href="' + employee.website + '">';
+	}
+	html += employee.name;
+	if (employee.hasOwnProperty('website')) {
+		html += '</a>';
+	}
+	if (employee.hasOwnProperty('title')) {
+		html += '</strong> <em>' + employee.title + '</em>'
+	}
+	html += '</h2>';
 
 	// Degrees
 	if (employee.hasOwnProperty('degrees')) {
@@ -92,11 +96,13 @@ function generateRow(ind, employee, formatTight=false) {
 		if (formatTight) {
 			html += '<em>';
 		}
-		html += employee.degrees.replace('\n','\n\t\t\t\t\t');
+		html += employee.degrees.replace('\n','<br>');
 		if (formatTight) {
-			html += '</em>\n';
+			html += '</em>';
+		} else {
+			html += '<br>'
 		}
-		html += '\n';
+		html += '<br>';
 	}
 
 	// Research Topic and Mentor
@@ -104,24 +110,24 @@ function generateRow(ind, employee, formatTight=false) {
 		var mentor = null;
 		for (let e=0; e<grad_student_workers.length; e++) {
 			if (grad_student_workers[e].name===employee.mentor) {
-				html += '\t\t\t\t\t<strong>Research Topic:</strong> ' + grad_student_workers[e].research + '\n';
-				if (formatTight) {
-					html += '\n';
+				html += '\t\t\t\t\t<strong>Research Topic:</strong> ' + grad_student_workers[e].research + '<br>';
+				if (!formatTight) {
+					html += '<br>';
 				}
 				break;
 			}
 		}
-		html += '\t\t\t\t\t<strong>Research Mentor:</strong> ' + employee.mentor + '\n';
+		html += '\t\t\t\t\t<strong>Research Mentor:</strong> ' + employee.mentor + '<br>';
 	} else if (employee.hasOwnProperty('research')) {
-		html += '\t\t\t\t\t<strong>Research Topic:</strong> ' + employee.research + '\n';
-		if (formatTight) {
-			html += '\n';
+		html += '\t\t\t\t\t<strong>Research Topic:</strong> ' + employee.research + '<br>';
+		if (!formatTight) {
+			html += '<br>';
 		}
 	}
 
 	// Email
 	if (employee.hasOwnProperty('alias')) {
-		html += '\t\t\t\t\t<strong>Email:</strong> ' + employee.alias +  '@mit.edu\n';
+		html += '\t\t\t\t\t<strong>Email:</strong> ' + employee.alias +  '@mit.edu<br>';
 	}
 
 	// End Cell and Row
