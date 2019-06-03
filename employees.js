@@ -23,7 +23,7 @@ grad_student_workers = [
 		"degrees":"M.S. in Mechanical Engineering, MIT (2017)\nB.S. in Mechanical Engineering, University of Florida (2015)",
 		"research":"Design and control of wearable robots focusing on enhancing capabilities of disabled persons",
 		"alias":"rachelmh",
-		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/100_20012.jpg",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/100_20012-e1559543090646.jpg",
 		"website":"http://darbeloff-lab.scripts.mit.edu/darbeloff-lab/?page_id=296"
 	},
 	{
@@ -40,7 +40,7 @@ grad_student_workers = [
 		"degrees":"S.M in Mechanical Engineering, MIT (2018)\nMEng in Mechanical Engineering, University of Bristol (2016)",
 		"research":"Design and control of autonomous excavation machines for mining applications",
 		"alias":"fes",
-		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/06/Sotiropoulos-Filippos-SM-04-1-e1529451280494-300x261.jpg"
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/06/Sotiropoulos-Filippos-SM-04-1-e1559579008430.jpg"
 	},
 	{
 		"name":"Nicholas S. Selby",
@@ -137,7 +137,7 @@ alumni=[
 		"degrees": "B.S. in Mechanical Engineering, MIT (2009)\nM.S. in Mechanical Engineering, MIT (2012)\nPhD in Mechanical Engineering, MIT (2017)",
 		"research":"Design and control of wearable robots for enhancing human capabilities",
 		"alias":"yfwu",
-		"image":"http://darbeloff-lab.scripts.mit.edu/darbeloff-lab/wp-content/uploads/2015/01/New-Image2.jpg"
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/New-Image2-e1559579330576.jpg"
 	},
 	{
 		"name":"Michaëlle N Mayalu",
@@ -178,14 +178,14 @@ alumni=[
 		"degrees": "B.S. in Physics, Kyushu University (2009); M.S. in Physics, Kyushu University (2012)",
 		"research":"Design and control of cooperative task assisting equipment for enhancing factory worker’s capabilities",
 		"alias":"etoh",
-		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/01/File-Jan-31-1-10-48-PM-281x300.jpeg"
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/01/File-Jan-31-1-10-48-PM-e1559579165409.jpeg"
 	},
 	{
 		"name":"Tongxi Yan",
 		"degrees": "B.S. in Mechanical Engineering, University of Illinois at Urbana-Champaign (2017)\nM.S. in Mechanical Engineering, MIT (2019)",
 		"research":"Design of an expandable robot inspired by plant growth",
 		"alias":"tyan",
-		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/tongxi-284x300.jpg"
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/tongxi-e1559579242181.jpg"
 	},
 	{
 		"name":"Katie Hahm",
