@@ -9,7 +9,14 @@ To add employees to the page, edit `employees.js`. The file is basically in JSON
   {
     "name":"John Bell",
     "title":"M.S. Student",
-    "degrees":"S.B. in Mechanical Engineering, MIT (2018)",
+    "degrees":[
+      {
+        "degree":"S.B.",
+        "subject":"Mechanical Engineering",
+        "institution":"MIT",
+        "year":2018
+      }
+    ],
     "research":"Actuation",
     "alias":"jhbell",
     "image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/03/Headshot_edited_small_square.jpg"
@@ -18,7 +25,14 @@ To add employees to the page, edit `employees.js`. The file is basically in JSON
   {
     "name":"George P. Burdell",
     "title":"M.S. Student",
-    "degrees":"B.S. Ceramic Engineering, Georgia Tech (1930)",
+    "degrees":[
+      {
+        "degree":"B.S.",
+        "subject":"Ceramic Engineering",
+        "institution":"Georgia Tech",
+        "year":1930
+      }
+    ],
     "research":"Everything",
     "alias":"gpburdell"
     // END NEW CODE

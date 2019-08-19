@@ -2,7 +2,20 @@ research_staff= [
 	{
 		"name":"Min-Cheol Kim",
 		"title":"Research Scientist",
-		"degrees":"Ph.D. in Mechanical Engineering, SNU (2005)\nB.S. in Mathematics, Univ. of Seoul",
+		"degrees":[
+			{
+				"degree":"Ph.D.",
+				"subject":"Mechanical Engineering",
+				"institution":"SNU",
+				"year":2005
+			},
+			{
+				"degree":"B.S.",
+				"subject":"Mathematics",
+				"institution":"Univ. of Seoul",
+				"year":2000
+			}
+		],
 		"research":"Cancer cell invasion dynamics in a 3D extracellular matrix network",
 		"alias":"mincheol",
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/204db50.jpg"
@@ -12,7 +25,20 @@ grad_student_workers = [
 	{
 		"name":"Jacob Guggenheim",
 		"title":"Ph.D. Candidate",
-		"degrees":"B.S. in Bioengineering, University of Illinois, Urbana-Champaign (2014)\nM.S. in Mechanical Engineering, MIT (2016)",
+		"degrees":[
+			{
+				"degree":"M.S.",
+				"subject":"Mechanical Engineering",
+				"institution":"MIT",
+				"year":2016
+			},
+			{
+				"degree":"B.S.",
+				"subject":"Bioengineering",
+				"institution":"University of Illinois Urbana-Champaign",
+				"year":2014
+			}
+		],
 		"research":"Unique Feedback Mechanisms from Wearable Robotics",
 		"alias":"jguggenh",
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/10171773_10203871130965603_146512243_n-e1559523597241.jpg"
@@ -20,7 +46,20 @@ grad_student_workers = [
 	{
 		"name":"Rachel Hoffman",
 		"title":"Ph.D. Candidate",
-		"degrees":"M.S. in Mechanical Engineering, MIT (2017)\nB.S. in Mechanical Engineering, University of Florida (2015)",
+		"degrees":[
+			{
+				"degree":"M.S.",
+				"subject":"Mechanical Engineering",
+				"institution":"MIT",
+				"year":2017
+			},
+			{
+				"degree":"B.S.",
+				"subject":"Mechanical Engineering",
+				"institution":"University of Florida",
+				"year":2015
+			}
+		],
 		"research":"Design and control of wearable robots focusing on enhancing capabilities of disabled persons",
 		"alias":"rachelmh",
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/100_20012-e1559543090646.jpg",
@@ -29,7 +68,20 @@ grad_student_workers = [
 	{
 		"name":"Phillip Daniel",
 		"title":"Ph.D. Candidate",
-		"degrees":"S.M. in Mechanical Engineering, MIT (2015)\nS.B. in Engineering, MIT (2013)",
+		"degrees":[
+			{
+				"degree":"S.M.",
+				"subject":"Mechanical Engineering",
+				"institution":"MIT",
+				"year":2015
+			},
+			{
+				"degree":"S.B.",
+				"subject":"Engineering",
+				"institution":"MIT",
+				"year":2013
+			}
+		],
 		"research":"Extra Robotic Arms for Enhancing Technicians in Manufacturing Settings",
 		"alias":"docphil",
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/Phillip-Daniel-300x300.jpg"
@@ -37,7 +89,20 @@ grad_student_workers = [
 	{
 		"name":"Filippos E. Sotiropoulos",
 		"title":"Ph.D. Candidate",
-		"degrees":"S.M in Mechanical Engineering, MIT (2018)\nMEng in Mechanical Engineering, University of Bristol (2016)",
+		"degrees":[
+			{
+				"degree":"S.M.",
+				"subject":"Mechanical Engineering",
+				"institution":"MIT",
+				"year":2018
+			},
+			{
+				"degree":"M.Eng.",
+				"subject":"Mechanical Engineering",
+				"institution":"University of Bristol",
+				"year":2016
+			}
+		],
 		"research":"Design and control of autonomous excavation machines for mining applications",
 		"alias":"fes",
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/06/Sotiropoulos-Filippos-SM-04-1-e1559579008430.jpg"
@@ -45,7 +110,20 @@ grad_student_workers = [
 	{
 		"name":"Nicholas S. Selby",
 		"title":"Ph.D. Candidate",
-		"degrees":"M.S. in Mechanical Engineering, MIT (2018)\nB.S. in Mechanical Engineering, Georgia Tech (2016)",
+		"degrees":[
+			{
+				"degree":"M.S.",
+				"subject":"Mechanical Engineering",
+				"institution":"MIT",
+				"year":2018
+			},
+			{
+				"degree":"B.S.",
+				"subject":"Mechanical Engineering",
+				"institution":"Georgia Tech",
+				"year":2016
+			}
+		],
 		"research":"TeachBot Education System for Workforce Development",
 		"alias":"nselby",
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/headshot-300x300.jpg",
@@ -54,7 +132,20 @@ grad_student_workers = [
 	{
 		"name":"Jerry Ng",
 		"title":"Ph.D. Student",
-		"degrees":"M.S. in Mechanical Engineering, MIT (2019)\nB.S. in Mechanical Engineering from UC San Diego (2017)",
+		"degrees":[
+			{
+				"degree":"M.S.",
+				"subject":"Mechanical Engineering",
+				"institution":"MIT",
+				"year":2019
+			},
+			{
+				"degree":"B.S.",
+				"subject":"Mechanical Engineering",
+				"institution":"UC San Diego",
+				"year":2017
+			}
+		],
 		"research":"Dual-Faceted Linearization",
 		"alias":"jerryng",
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/jerry-300x300.jpg"
@@ -62,7 +153,14 @@ grad_student_workers = [
 	{
 		"name":"Ryan Sandzimier",
 		"title":"M.S. Student",
-		"degrees":"B.S. in Mechanical Engineering, University of California, Los Angeles (2015)",
+		"degrees":[
+			{
+				"degree":"B.S.",
+				"subject":"Mechanical Engineering",
+				"institution":"University of California, Los Angeles",
+				"year":2015
+			}
+		],
 		"research":"Autonomous Excavators",
 		"alias":"rsandz",
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/Ryan.jpeg"
@@ -70,7 +168,14 @@ grad_student_workers = [
 	{
 		"name":"John Bell",
 		"title":"M.S. Student",
-		"degrees":"S.B. in Mechanical Engineering, MIT (2018)",
+		"degrees":[
+			{
+				"degree":"S.B.",
+				"subject":"Mechanical Engineering",
+				"institution":"MIT",
+				"year":2018
+			}
+		],
 		"research":"Actuation",
 		"alias":"jhbell",
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/03/Headshot_edited_small_square.jpg"
@@ -79,7 +184,14 @@ grad_student_workers = [
 visiting_engineers=[
 	{
 		"name":"Seiichi Teshigawara",
-		"degrees":"Ph.D. in Mechanical Engineering, UEC (2012)",
+		"degrees":[
+			{
+				"degree":"Ph.D.",
+				"subject":"Mechanical Engineering",
+				"institution":"UEC",
+				"year":2012
+			}
+		],
 		"research":"coming soon",
 		"alias":"seiichi"
 	}

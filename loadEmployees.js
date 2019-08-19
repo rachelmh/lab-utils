@@ -96,7 +96,7 @@ function generateRow(ind, employee, formatTight=false) {
 		if (formatTight) {
 			html += '<em>';
 		}
-		html += employee.degrees.replace(/\n/g,'<br>');
+		html += formatDegreeString(employee.degrees);
 		if (formatTight) {
 			html += '</em>';
 		} else {
@@ -134,4 +134,25 @@ function generateRow(ind, employee, formatTight=false) {
 	html += endCellAndRow();
 
 	return html;
+}
+
+function formatDegreeString(degrees) {
+	// "degrees" field can be either a string (to be printed literally) or an array of objects.
+	// If it's an array of objects,
+	if (Array.isArray(degrees)) {
+		// Sort the degrees by year.
+		degrees.sort((a,b) => (a.year<b.year) ? 1 : -1);
+
+		// Assemble degrees in formatted strings, one line for each degree.
+		var degStr = '';
+		degrees.forEach(function(deg) {
+			degStr += `${deg.degree} in ${deg.subject}, ${deg.institution} (${deg.year})\n`;
+		});
+
+		// Remove the last new line character.
+		degrees = degStr.substring(0,degStr.length-1);
+	}
+
+	// Replace the newline characters with HTML breaks.
+	return degrees.replace(/\n/g,'<br>');
 }
