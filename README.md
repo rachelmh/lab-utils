@@ -2,9 +2,9 @@
 Utilities to aid in lab administration
 
 ## Editing the People Page on the Lab Website
-Much of the HTML on [the People page of the lab website](http://darbelofflab.mit.edu/people/) is automatically generated so as to keep formatting consistent. Two files in this repository, `employees.js` and `loadEmployees.js` aid in this. The website, built in WordPress, does not directly access the scripts in GitHub. Rather, after editing these files, you should upload them to the [WordPress Media Library](http://darbelofflab.mit.edu/wp-admin/upload.php).
+Much of the HTML on [the People page of the lab website](http://darbelofflab.mit.edu/people/) is automatically generated so as to keep formatting consistent. Two files in this repository, `employees.json` and `loadEmployees.js` aid in this. The website, built in WordPress, accesses these scripts from the `gh-pages` branch of this GitHub repository.
 
-To add employees to the page, edit `employees.js`. The file is basically in JSON format, but WordPress does not allow JSON files to be uploaded for security reasons. Editing is fairly straightforward: simply add the new lab mate as an object to the array to which they belong. For example, to add a new graduate student-worker after John Bell's entry, simply write:
+To add employees to the page, edit `employees.json`. Editing is fairly straightforward: simply add the new lab mate as an object to the array to which they belong. For example, to add a new graduate student-worker after John Bell's entry, simply write:
 ```
   {
     "name":"John Bell",
@@ -37,10 +37,12 @@ To add employees to the page, edit `employees.js`. The file is basically in JSON
     "alias":"gpburdell"
     // END NEW CODE
   }
-]
+],
 ```
 
-To actually change how the HTML is generated from the `employees.js` file, edit `loadEmployees.js`.
+Please remember to make all edits you would like to see reflected in the website in the `gh-pages` branch.
+
+To actually change how the HTML is generated from the `employees.json` file, edit `loadEmployees.js`.
 
 ## Making Videos for the Lab Window Monitors
 The four lab window monitors can each fit three 16:9 videos stacked vertically. To help generate these videos, you can use `make_video_wall.sh`. The script uses `ffmpeg` to take in three videos, stack them vertically, rotate them to display correctly on the monitors, and then resize them so that they can be played from the video wall display units. I would recommend organizing the videos such that the three videos on a given monitor have approximately the same duration. Otherwise, the shorter videos will pause on the last frame until the longest one has completed.
