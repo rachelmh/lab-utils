@@ -201,6 +201,21 @@ grad_student_workers = [
 		"alias":"hanjuns",
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/08/lab_profile.jpeg",
 		"website":"http://hanjunsong.com"
+	},
+	{
+		"name":"Cormac O'Neill",
+		"title":"M.S. Student",
+		"degrees":[
+			{
+				"degree":"B.S.",
+				"subject":"Mechanical Engineering",
+				"institution":"Caltech",
+				"year":2019
+			}
+		],
+		"research":"Manufacturig Robotics for Heavy Industries",
+		"alias":"croneill",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/08/Lab_pic_1.jpg",
 	}
 ]
 visiting_engineers=[
