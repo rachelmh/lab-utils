@@ -6,6 +6,8 @@ html += endTable();
 document.getElementById('research-staff').innerHTML = html;
 
 html = generateHeader('Graduate Student-Workers') + startTable();
+gswTitles = ['M.S. Student','Ph.D. Student','Ph.D. Candidate'];
+grad_student_workers.sort((a,b) => gswTitles.indexOf(b.title)-gswTitles.indexOf(a.title));
 for (let e=0; e<grad_student_workers.length; e++) {
 	html += generateRow(e, grad_student_workers[e], false);
 }
