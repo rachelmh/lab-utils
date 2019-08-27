@@ -1,6 +1,6 @@
 research_staff= [
 	{
-		"name":"Min-Cheol Kim",
+		"name":"Min-Chloe Kim",
 		"title":"Research Scientist",
 		"degrees":[
 			{
@@ -179,6 +179,28 @@ grad_student_workers = [
 		"research":"Actuation",
 		"alias":"jhbell",
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/03/Headshot_edited_small_square.jpg"
+	},
+	{
+		"name":"Hanjun Song",
+		"title":"Ph.D. Student",
+		"degrees":[
+			{
+				"degree":"M.S.",
+				"subject":"Aerospace Engineering",
+				"institution":"KAIST",
+				"year":2016
+			},
+			{
+				"degree":"B.S.",
+				"subject":"Mechanical Engineering",
+				"institution":"KAIST",
+				"year":2014
+			}
+		],
+		"research":"Extra Robotic Arms",
+		"alias":"hanjuns",
+		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/08/lab_profile.jpeg",
+		"website":"http://hanjunsong.com"
 	}
 ]
 visiting_engineers=[
@@ -252,7 +274,7 @@ alumni=[
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/New-Image2-e1559579330576.jpg"
 	},
 	{
-		"name":"Michaëlle N Mayalu",
+		"name":"MichaÃ«lle N Mayalu",
 		"degrees": "B.S. in Mechanical Engineering, MIT (2010)\nM.S. in Mechanical Engineering, MIT (2012)\nPhD in Mechanical Engineering, MIT (2017)",
 		"research":"Control Theoretic Approaches to Modeling and Simulation of Bi0molecular and Biophysical Mechanisms",
 		"alias":"mmayalu",
@@ -267,12 +289,12 @@ alumni=[
 	},
 	{
 		"name":"Alexandre Girard",
-		"degrees": "B.Ing. in Mechanical Engineering, Université de Sherbrooke (2010)\nM.Sc.A. in Mechanical Engineering, Université de Sherbrooke (2013)\nPhD in Mechanical Engineering, MIT (2017)",
+		"degrees": "B.Ing. in Mechanical Engineering, UniversitÃ© de Sherbrooke (2010)\nM.Sc.A. in Mechanical Engineering, UniversitÃ© de Sherbrooke (2013)\nPhD in Mechanical Engineering, MIT (2017)",
 		"research":"Actuator technologies, robotic systems, control and planning algorithms, automation of manufacturing operations for the aerospace industry",
 		"image":"http://darbeloff-lab.scripts.mit.edu/darbeloff-lab/wp-content/uploads/2015/01/alex-300x300.jpg"
 	},
 	{
-		"name":"Zoë Lemon",
+		"name":"ZoÃ« Lemon",
 		"degrees": "M.S. in Mechanical Engineering, MIT (2019)\nB.S. in Physics, University of Missouri-Kansas City (2017)",
 		"research":"Extra Robotic Fingers",
 		"alias":"lemonz",
@@ -288,7 +310,7 @@ alumni=[
 	{
 		"name":"Haruhiko Eto",
 		"degrees": "B.S. in Physics, Kyushu University (2009); M.S. in Physics, Kyushu University (2012)",
-		"research":"Design and control of cooperative task assisting equipment for enhancing factory worker’s capabilities",
+		"research":"Design and control of cooperative task assisting equipment for enhancing factory workerâ€™s capabilities",
 		"alias":"etoh",
 		"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/01/File-Jan-31-1-10-48-PM-e1559579165409.jpeg"
 	},
