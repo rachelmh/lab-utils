@@ -52,6 +52,8 @@ To use it, you'll need to install the dependency:
 $ sudo apt install ffmpeg
 ```
 
+Before you run this script, __all of the input videos must have the same dimensions.__ Also, it is recommended that the videos be roughly the same duration. If they are not the same duration, shorter videos will pause on the last frame until the longer video completes.
+
 Then, run the following command in the directory containing `make_video_wall.sh` and the input videos:
 ```
 $ ./make_video_wall.sh in1.mp4 in2.mp4 in3.mp4 out.mp4
