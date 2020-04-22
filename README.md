@@ -45,14 +45,14 @@ Please remember to make all edits you would like to see reflected in the website
 To actually change how the HTML is generated from the `employees.json` file, edit `loadEmployees.js`.
 
 ## Making Videos for the Lab Window Monitors
-The four lab window monitors can each fit three 16:9 videos stacked vertically. To help generate these videos, you can use `make_video_wall.sh`. The script uses `ffmpeg` to take in three videos, stack them vertically, rotate them to display correctly on the monitors, and then resize them so that they can be played from the video wall display units. I would recommend organizing the videos such that the three videos on a given monitor have approximately the same duration. Otherwise, the shorter videos will pause on the last frame until the longest one has completed.
+The four lab window monitors can each fit three 16:9 videos stacked vertically. To help generate these videos, you can use `make_video_wall.sh`. The script uses `ffmpeg` to take in three videos, add padding to ensure a 16:9 aspect ratio, concatenate them to ensure they are the same duration, stack them vertically, rotate them to display correctly on the monitors, and resize them so that they can be played from the video wall display units.
 
 To use it, you'll need to install the dependency:
 ```
 $ sudo apt install ffmpeg
 ```
 
-Before you run this script, __all of the input videos must have the same dimensions.__ Also, it is recommended that the videos be roughly the same duration. If they are not the same duration, shorter videos will pause on the last frame until the longer video completes.
+Before you run this script, it is recommended that the videos be roughly the same duration. If they are not the same duration, the output video will be larger and there will be more overlap between the videos.
 
 Then, run the following command in the directory containing `make_video_wall.sh` and the input videos:
 ```
