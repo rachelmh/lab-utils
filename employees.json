@@ -24,27 +24,6 @@
 	],
 	"grad_student_workers": [
 		{
-			"name":"Jacob Guggenheim",
-			"title":"Ph.D. Candidate",
-			"degrees":[
-				{
-					"degree":"M.S.",
-					"subject":"Mechanical Engineering",
-					"institution":"MIT",
-					"year":2016
-				},
-				{
-					"degree":"B.S.",
-					"subject":"Bioengineering",
-					"institution":"University of Illinois Urbana-Champaign",
-					"year":2014
-				}
-			],
-			"research":"Unique Feedback Mechanisms from Wearable Robotics",
-			"alias":"jguggenh",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/10171773_10203871130965603_146512243_n-e1559523597241.jpg"
-		},
-		{
 			"name":"Rachel Hoffman",
 			"title":"Ph.D. Candidate",
 			"degrees":[
@@ -63,8 +42,7 @@
 			],
 			"research":"Design and control of wearable robots focusing on enhancing capabilities of disabled persons",
 			"alias":"rachelmh",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/100_20012-e1559543090646.jpg",
-			"website":"http://darbeloff-lab.scripts.mit.edu/darbeloff-lab/?page_id=296"
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/100_20012-e1559543090646.jpg"
 		},
 		{
 			"name":"Phillip Daniel",
@@ -104,9 +82,30 @@
 					"year":2016
 				}
 			],
-			"research":"Design and control of autonomous excavation machines for mining applications",
+			"research":"Planning and control for autonomous excavation",
 			"alias":"fes",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/06/Sotiropoulos-Filippos-SM-04-1-e1559579008430.jpg"
+		},
+		{
+			"name":"Jerry Ng",
+			"title":"Ph.D. Candidate",
+			"degrees":[
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2019
+				},
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"UC San Diego",
+					"year":2017
+				}
+			],
+			"research":"Dual-Faceted Linearization",
+			"alias":"jerryng",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/jerry-300x300.jpg"
 		},
 		{
 			"name":"Nicholas S. Selby",
@@ -131,40 +130,19 @@
 			"website":"http://www.mit.edu/~nselby/"
 		},
 		{
-			"name":"Jerry Ng",
-			"title":"Ph.D. Student",
-			"degrees":[
-				{
-					"degree":"M.S.",
-					"subject":"Mechanical Engineering",
-					"institution":"MIT",
-					"year":2019
-				},
-				{
-					"degree":"B.S.",
-					"subject":"Mechanical Engineering",
-					"institution":"UC San Diego",
-					"year":2017
-				}
-			],
-			"research":"Dual-Faceted Linearization",
-			"alias":"jerryng",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/jerry-300x300.jpg"
-		},
-		{
 			"name":"Ryan Sandzimier",
 			"title":"M.S. Student",
 			"degrees":[
 				{
 					"degree":"B.S.",
 					"subject":"Mechanical Engineering",
-					"institution":"University of California, Los Angeles",
+					"institution":"UCLA",
 					"year":2015
 				}
 			],
-			"research":"Autonomous Excavators",
+			"research":"A Data-Driven Approach to Autonomous Excavation",
 			"alias":"rsandz",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/Ryan.jpeg"
+			"image":"https://i.imgur.com/OsyFvWl.jpg"
 		},
 		{
 			"name":"John Bell",
@@ -245,8 +223,23 @@
 					"year":2012
 				}
 			],
-			"research":"coming soon",
-			"alias":"seiichi"
+			"research":"Semi-wearable robot for walking assistance",
+			"alias":"seiichi",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/10/IMG_20191017_222135.jpg"
+		},
+		{
+			"name":"Daisuke Matsuura",
+			"degrees":[
+				{
+					"degree":"Ph.D.",
+					"subject":"Mechanical Engineering",
+					"institution":"Tokyo Institute of Technology",
+					"year":2008
+				}
+			],
+			"research":"Extendable continuum robot arm",
+			"alias":"dmatsuura",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/10/dmatsuura.jpg"
 		}
 	],
 	"urops": [
@@ -257,22 +250,17 @@
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/ctraweek_heashot-300x300.png"
 		},
 		{
-			"name":"Rachel Kwak",
-			"degrees":"Architecture B.S. Candidate",
-			"mentor":"Nicholas S. Selby",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/05/rachelkwak.jpg"
-		},
-		{
 			"name":"Albert Go",
 			"degrees":"Mechanical Engineering B.S. Candidate",
 			"mentor":"Nicholas S. Selby",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/05/albertgo.jpg"
 		},
 		{
-			"name":"Faith Jones",
-			"degrees":"Mechanical Engineering B.S. Candidate",
+			"name":"Sarah Vu",
+			"degrees":"Electrical Engineering and Computer Science B.S. Candidate",
 			"mentor":"Nicholas S. Selby",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/06/faithjones.jpeg"
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/09/headshot.jpg",
+			"website":"https://stuff.mit.edu/~sarahvu/"
 		}
 	],
 	"alumni": [
@@ -585,6 +573,32 @@
 			"alias":"dgonz",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2017/02/dgonz-portrait_close-e1487282798853-300x300.jpg",
 			"website":"http://dgonz.mit.edu/"
+		},
+		{
+			"name":"Jacob Guggenheim",
+			"degrees":[
+				{
+					"degree":"Ph.D.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2019
+				},
+				{
+					"degree":"M.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"MIT",
+					"year":2016
+				},
+				{
+					"degree":"B.S.",
+					"subject":"Bioengineering",
+					"institution":"University of Illinois Urbana-Champaign",
+					"year":2014
+				}
+			],
+			"research":"Unique Feedback Mechanisms from Wearable Robotics",
+			"alias":"jguggenh",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/10171773_10203871130965603_146512243_n-e1559523597241.jpg"
 		}
 	]
 }
