@@ -130,23 +130,8 @@
 			"website":"http://www.mit.edu/~nselby/"
 		},
 		{
-			"name":"Ryan Sandzimier",
-			"title":"M.S. Student",
-			"degrees":[
-				{
-					"degree":"B.S.",
-					"subject":"Mechanical Engineering",
-					"institution":"UCLA",
-					"year":2015
-				}
-			],
-			"research":"A Data-Driven Approach to Autonomous Excavation",
-			"alias":"rsandz",
-			"image":"https://i.imgur.com/OsyFvWl.jpg"
-		},
-		{
 			"name":"John Bell",
-			"title":"M.S. Student",
+			"title":"Ph.D. Candidate",
 			"degrees":[
 				{
 					"degree":"S.B.",
@@ -213,55 +198,8 @@
 		}
 	],
 	"visiting_engineers": [
-		{
-			"name":"Seiichi Teshigawara",
-			"degrees":[
-				{
-					"degree":"Ph.D.",
-					"subject":"Mechanical Engineering",
-					"institution":"UEC",
-					"year":2012
-				}
-			],
-			"research":"Semi-wearable robot for walking assistance",
-			"alias":"seiichi",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/10/IMG_20191017_222135.jpg"
-		},
-		{
-			"name":"Daisuke Matsuura",
-			"degrees":[
-				{
-					"degree":"Ph.D.",
-					"subject":"Mechanical Engineering",
-					"institution":"Tokyo Institute of Technology",
-					"year":2008
-				}
-			],
-			"research":"Extendable continuum robot arm",
-			"alias":"dmatsuura",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/10/dmatsuura.jpg"
-		}
 	],
 	"urops": [
-		{
-			"name":"Claire Traweek",
-			"degrees":"Mechanical Engineering B.S. Candidate",
-			"mentor":"Nicholas S. Selby",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2018/09/ctraweek_heashot-300x300.png"
-		},
-		{
-			"name":"Albert Go",
-			"degrees":"Mechanical Engineering B.S. Candidate",
-			"mentor":"Nicholas S. Selby",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/05/albertgo.jpg"
-		},
-		{
-			"name":"Sarah Vu",
-			"degrees":"Electrical Engineering and Computer Science B.S. Candidate",
-			"mentor":"Nicholas S. Selby",
-			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2019/09/headshot.jpg",
-			"website":"https://stuff.mit.edu/~sarahvu/"
-		}
 	],
 	"alumni": [
 		{
@@ -599,6 +537,20 @@
 			"research":"Unique Feedback Mechanisms from Wearable Robotics",
 			"alias":"jguggenh",
 			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2015/01/10171773_10203871130965603_146512243_n-e1559523597241.jpg"
+		},
+		{
+			"name":"Ryan Sandzimier",
+			"degrees":[
+				{
+					"degree":"B.S.",
+					"subject":"Mechanical Engineering",
+					"institution":"UCLA",
+					"year":2015
+				}
+			],
+			"research":"A Data-Driven Approach to Autonomous Excavation",
+			"alias":"rsandz",
+			"image":"https://i.imgur.com/OsyFvWl.jpg"
 		}
 	]
 }
