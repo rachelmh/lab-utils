@@ -2,7 +2,7 @@
 Utilities to aid in lab administration
 
 ## Editing the People Page on the Lab Website
-Much of the HTML on [the People page of the lab website](http://darbelofflab.mit.edu/people/) is automatically generated so as to keep formatting consistent. Two files in this repository, `employees.json` and `loadEmployees.js` aid in this. The website, built in WordPress, accesses these scripts from the `gh-pages` branch of this GitHub repository.
+Much of the HTML on [the People page of the lab website](http://darbelofflab.mit.edu/people/) is automatically generated so as to keep formatting consistent. Two files in this repository, `employees.json` and `loadEmployees.js` aid in this. The website, built in WordPress, accesses these scripts from the this GitHub repository.
 
 To add employees to the page, edit `employees.json`. Editing is fairly straightforward: simply add the new lab mate as an object to the array to which they belong. For example, to add a new graduate student-worker after John Bell's entry, simply write:
 ```
@@ -39,8 +39,6 @@ To add employees to the page, edit `employees.json`. Editing is fairly straightf
   }
 ],
 ```
-
-Please remember to make all edits you would like to see reflected in the website in the `gh-pages` branch.
 
 To actually change how the HTML is generated from the `employees.json` file, edit `loadEmployees.js`.
 
