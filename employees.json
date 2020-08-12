@@ -198,6 +198,27 @@
 		}
 	],
 	"visiting_engineers": [
+		  {
+		    "name":"Eisuke Matsuzaki",
+		    "title":"Visiting Engineer",
+		    "degrees":[
+		      {
+			"degree":"M.S.",
+			"subject":"Material Science",
+			"institution":"Japan Advanced Institute of Science and Technology",
+			"year":
+		      }
+		      {
+			"degree":"B.S.",
+			"subject":"Science and Engineerig",
+			"institution":"Konan University",
+			"year":1930
+		      }
+		    ],
+		    "research":"Design and control of industrial cranes to achieve high functionality and intelligence.",
+		    "alias":"eisukem"
+		    "image":"http://darbelofflab.mit.edu/wp-content/uploads/2020/08/IMG_2351.jpg"
+		  }
 	],
 	"urops": [
 	],
