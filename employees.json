@@ -172,7 +172,7 @@
 			"degrees":[
 				{
 					"degree":"B.S.",
-					"subject":"Mechanical Engineering",
+					"subject":"Mechanical Engineering w/ Minor in Aerospace",
 					"institution":"Caltech",
 					"year":2019
 				}
@@ -198,6 +198,42 @@
 		}
 	],
 	"visiting_engineers": [
+				{
+			"name":"Eisuke Matsuzaki",
+			"title":"Visiting Engineer",
+			"degrees":[
+				{
+					"degree":"B.S.",
+					"subject":"Science and Engineering",
+					"institution":"Konan University",
+					"year":
+				},
+				{
+					"degree":"M.S.",
+					"subject":"Material Science",
+					"institution":"Japan Advanced Institute of Science and Technology",
+					"year":
+				}
+			],
+			"research":"Design and control of industrial cranes to achieve high functionality and intelligence.",
+			"alias":"eisukem",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2020/08/IMG_2351.jpg"
+		},
+								{
+			"name":"Hiofumi Itagaki",
+			"title":"Visiting Engineer",
+			"degrees":[
+				{
+					"degree":"PhD",
+					"subject":"Engineering",
+					"institution":"Tokyo University of Agriculture and Technology",
+					"year":2013
+				}
+			],
+			"research":"Design and control of semi-wearable robots focusing on walking assistance.",
+			"alias":"",
+			"image":"http://darbelofflab.mit.edu/wp-content/uploads/2020/08/Itagaki-e1597919458982.png"
+		}
 	],
 	"urops": [
 	],
